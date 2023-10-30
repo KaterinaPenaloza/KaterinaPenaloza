@@ -31,3 +31,12 @@
 
 <!-- [![Katerina's GitHub stats](https://github-readme-stats.vercel.app/api?username=KaterinaPenaloza)](https://github.com/KaterinaPenaloza/github-readme-stats) -->
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KaterinaPenaloza&langs_count=8&layout=compact)](https://github.com/KaterinaPenaloza/github-readme-stats)
+
+- Mi mascota virtual
+  
+<!-- BEGIN bunnyhero labs pet code -->
+<a href="http://bunnyherolabs.com/adopt/showpet.php?b=bWM9Zm94LnN3ZiZjbHI9MHhlNjEyNjEmY249JmFuPWthdHpld3k%3D"><img src="http://petimage.bunnyherolabs.com/adopt/petimage/bWM9Zm94LnN3ZiZjbHI9MHhlNjEyNjEmY249JmFuPWthdHpld3k%3D.png" width="250" height="300" alt="my pet!" style="border: 0" /></a>
+<!-- END bunnyhero labs pet code -->
+
+
+
