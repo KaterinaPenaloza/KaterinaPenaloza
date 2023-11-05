@@ -5,7 +5,6 @@
 - 💻 Actualmente soy estudiante de ingeniería civil informática en la UV
 - 🐍 Mi lenguaje de programación favorito es Python
 - 🔒 Mi área de interés es la ciberseguridad, las redes y los sistemas operativos, pero me gusta aprender de todo y estar en constante aprendizaje
-- 🐱 Mis animales favoritos --> 🐱🦊🦝🐉
 - 👾 Me gusta:
   - 🎶 Escuchar música
   - 🧸 K-pop
@@ -15,7 +14,6 @@
 - ✉️ Conecta conmigo:
 
   [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katerina-pe%C3%B1aloza/)
-  [![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:katerina.penaloza@alumnos.uv.cl)
 
 - ⭐ Tecnologías que conozco:
 
