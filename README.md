@@ -1,16 +1,15 @@
 ### ✨Bienvenid@ a mi perfil de Github✨
 
 <!-- **KaterinaPenaloza/KaterinaPenaloza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
-- 👻 Mi nombre es Katerina, tengo 23 años y soy de Chile 🇨🇱
-- 💻 Actualmente soy estudiante de ingeniería civil informática en la UV
+- 👻 Mi nombre es Katerina, tengo 24 años y soy de Chile 🇨🇱
+- 💻 Estudiante de ingeniería civil informática en la UV
 - 🐍 Mi lenguaje de programación favorito es Python
-- 🔒 Mi área de interés es la ciberseguridad, las redes y los sistemas operativos, pero me gusta aprender de todo y estar en constante aprendizaje
+- 🔒 Mi área de interés es la ciberseguridad, machine learning y AI, pero me gusta aprender de todo y estar en constante aprendizaje
 - 👾 Me gusta:
   - 🎶 Escuchar música
   - 🧸 K-pop
   - 🎮 Videojuegos
   - 🌸 Anime
-  - 🥊 Fitboxing
 - ✉️ Conecta conmigo:
 
   [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katerina-pe%C3%B1aloza/)
