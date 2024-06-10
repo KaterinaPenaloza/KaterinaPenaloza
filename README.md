@@ -4,7 +4,7 @@
 - 👻 Mi nombre es Katerina, tengo 24 años y soy de Chile 🇨🇱
 - 💻 Estudiante de ingeniería civil informática en la UV
 - 🐍 Mi lenguaje de programación favorito es Python
-- 🔒 Mi área de interés es la ciberseguridad, machine learning y AI, pero me gusta aprender de todo y estar en constante aprendizaje
+- 🔒 Mi área de interés es la ciberseguridad, ML y AI, pero me gusta aprender de todo y estar en constante aprendizaje
 - 👾 Me gusta:
   - 🎶 Escuchar música
   - 🧸 K-pop
