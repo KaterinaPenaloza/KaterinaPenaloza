@@ -38,7 +38,7 @@
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KaterinaPenaloza&langs_count=8&layout=compact)](https://github.com/KaterinaPenaloza/github-readme-stats)
 
 
-- Yo programando 🐱
+  ---
   
   [![GIF](https://media.giphy.com/media/11JTxkrmq4bGE0/giphy.gif)](https://giphy.com/gifs/cat-computer-working-11JTxkrmq4bGE0)
 
