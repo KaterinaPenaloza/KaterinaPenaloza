@@ -1,10 +1,10 @@
 ### ✨Bienvenid@ a mi perfil de Github✨
 
 <!-- **KaterinaPenaloza/KaterinaPenaloza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
-- 👻 Katerina || 24 años || Chile 🇨🇱
+- 👻 Katerina || 25 años || Chile 🇨🇱
 - 💻 Estudiante de Ingeniería civil Informática en la Universidad de Valparaíso
 - 🐍 Programando principalmente en Python
-- 🔒 Mi área de interés es la ciberseguridad, ML y AI, pero me gusta aprender de todo y estar en constante aprendizaje
+- 🔒 Mi área de interés es la ciberseguridad, inteligencia artificial y ML
 - ✉️ Conecta conmigo:
   
   [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katerina-pe%C3%B1aloza/)
@@ -45,5 +45,3 @@
 <!-- BEGIN bunnyhero labs pet code -->
 <!-- <a href="http://bunnyherolabs.com/adopt/showpet.php?b=bWM9Zm94LnN3ZiZjbHI9MHhlNjEyNjEmY249JmFuPWthdHpld3k%3D"><img src="http://petimage.bunnyherolabs.com/adopt/petimage/bWM9Zm94LnN3ZiZjbHI9MHhlNjEyNjEmY249JmFuPWthdHpld3k%3D.png" width="250" height="300" alt="my pet!" style="border: 0" /></a> -->
 <!-- END bunnyhero labs pet code -->
-
-
