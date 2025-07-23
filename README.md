@@ -35,7 +35,7 @@
 <!-- [![Katerina's GitHub stats](https://github-readme-stats.vercel.app/api?username=KaterinaPenaloza)](https://github.com/KaterinaPenaloza/github-readme-stats) -->
 - Top Langs
   
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KaterinaPenaloza&langs_count=8&layout=compact)](https://github.com/KaterinaPenaloza/github-readme-stats)
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KaterinaPenaloza&langs_count=6&layout=compact)](https://github.com/KaterinaPenaloza/github-readme-stats)
 
 
   ---
