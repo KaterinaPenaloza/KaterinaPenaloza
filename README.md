@@ -1,7 +1,7 @@
 ### ✨Bienvenid@ a mi perfil de Github✨
 
 <!-- **KaterinaPenaloza/KaterinaPenaloza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
-- 👻 Katerina || 25 años || Chile 🇨🇱
+- 👻 Katerina || Chile 🇨🇱
 - 💻 Estudiante de Ingeniería civil Informática en la Universidad de Valparaíso
 - 🐍 Programando principalmente en Python
 - 🔒 Mi área de interés es la ciberseguridad, inteligencia artificial y ML
@@ -22,8 +22,6 @@
   ---
   ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
   ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-  ---
-  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
   ---
   ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
   ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
