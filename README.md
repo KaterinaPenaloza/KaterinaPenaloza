@@ -2,11 +2,12 @@
 
 <!-- **KaterinaPenaloza/KaterinaPenaloza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 - 👻 Katerina || Chile 🇨🇱
-- 💻 Estudiante de Ingeniería civil Informática en la Universidad de Valparaíso
-- 🐍 Programando principalmente en Python
-- 🔒 Mi área de interés es la ciberseguridad, inteligencia artificial y ML
+- 💻 Ingeniera Civil Informática
+- 🐍 Python Developer
+- ⚙️ Data Analysis & Machine Learning
+- 🔒 Cybersecurity
 - ✉️ Conecta conmigo:
-  
+
   [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katerina-pe%C3%B1aloza/)
 
 - ⭐ Tecnologías:
