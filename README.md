@@ -31,10 +31,9 @@
   ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 <!-- [![Katerina's GitHub stats](https://github-readme-stats.vercel.app/api?username=KaterinaPenaloza)](https://github.com/KaterinaPenaloza/github-readme-stats) -->
-- Top Langs
-  
-![Top Languages](stats/top-langs.svg)
+  ---
 
+  ![Top Languages](./assets/top-langs.svg)
 
   ---
   
