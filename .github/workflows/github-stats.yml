@@ -1,19 +1,32 @@
-name: Generate GitHub Stats
+name: Generate Top Languages
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate stats
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: ${{ github.repository_owner }}
+      - name: Create stats folder
+        run: mkdir -p stats
+
+      - name: Download Top Languages image
+        run: |
+          curl -o stats/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight"
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add stats/top-langs.svg
+          git commit -m "update top langs" || exit 0
+          git push
