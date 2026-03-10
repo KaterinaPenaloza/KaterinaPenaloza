@@ -1,4 +1,4 @@
-### ✨Bienvenid@ a mi perfil de Github✨
+## ✨Bienvenid@ a mi perfil de Github✨
 
 <!-- **KaterinaPenaloza/KaterinaPenaloza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 - 👻 Katerina || Chile 🇨🇱
@@ -10,7 +10,7 @@
 
   [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katerina-pe%C3%B1aloza/)
 
-- ⭐ Tecnologías:
+### ⭐Tecnologías
 
   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
   ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
