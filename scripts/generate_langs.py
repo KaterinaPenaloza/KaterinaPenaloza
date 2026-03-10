@@ -2,7 +2,7 @@
 """
 Genera un SVG de Top Languages a partir de las estadísticas reales de GitHub.
 Uso: python generate_langs.py
-Requiere: GITHUB_TOKEN como variable de entorno
+Requiere: GITHUB_TOKEN como variable de entorno (o en el workflow)
 """
 
 import os
@@ -14,16 +14,16 @@ from collections import defaultdict
 #  CONFIGURACIÓN
 GITHUB_USER   = os.environ.get("GITHUB_USER", "TU_USUARIO")
 MAX_LANGS     = 6
-EXCLUDE_LANGS = {"HTML", "CSS", "Dockerfile", "Shell", "Makefile"}  # ignore
+EXCLUDE_LANGS = {"HTML", "CSS", "Dockerfile", "Shell", "Makefile", "TeX"}  # ignorar estos
 
-# Paleta de colores
+# Paleta colores
 NEON_COLORS = [
     "#00F5FF",   # cyan
     "#FF00FF",   # magenta
-    "#39FF14",   # verde
-    "#FF6B35",   # naranja
-    "#BF00FF",   # violeta
-    "#FFFF00",   # amarillo
+    "#39FF14",   # verde eléctrico
+    "#FF6B35",   # naranja neon
+    "#BF00FF",   # violeta neon
+    "#FFFF00",   # amarillo neon
 ]
 
 #  FETCH DE DATOS VÍA GITHUB API
@@ -139,7 +139,7 @@ def generate_svg(lang_stats):
   {''.join(rows)}
 </svg>"""
 
-    out_path = os.path.join(os.path.dirname(__file__), "assets", "top-langs.svg")
+    out_path = os.path.join(os.path.dirname(__file__), "..", "assets", "top-langs.svg")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(svg)
@@ -149,7 +149,6 @@ def generate_svg(lang_stats):
         print(f"   {l['name']:20s} {l['pct']:5.1f}%  {l['color']}")
 
 #  MAIN
-
 if __name__ == "__main__":
     token = os.environ.get("GITHUB_TOKEN", "")
     user  = os.environ.get("GITHUB_USER", GITHUB_USER)
