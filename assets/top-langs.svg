@@ -1,5 +1,150 @@
-The deployment is currently unavailable
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="268"
+     viewBox="0 0 340 268" role="img" aria-label="Top Languages">
 
-DEPLOYMENT_PAUSED
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0D0D1A"/>
+      <stop offset="100%" stop-color="#12121F"/>
+    </linearGradient>
+    <filter id="titleGlow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-iad1::74phj-1775443388329-4bdace31701f
+  <!-- fondo -->
+  <rect width="340" height="268" rx="12" fill="url(#bgGrad)" stroke="#2A2A3E" stroke-width="1.5"/>
+
+  <!-- título -->
+  <text x="24" y="28" fill="#00F5FF" font-family="'Courier New', monospace"
+        font-size="14" font-weight="700" filter="url(#titleGlow)">◈ Top Languages</text>
+  <line x1="24" y1="34" x2="316" y2="34" stroke="#2A2A3E" stroke-width="1"/>
+
+  
+    <!-- Jupyter Notebook -->
+    <defs>
+      <filter id="glow0" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="53" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Jupyter Notebook</text>
+    <text x="316" y="53" fill="#00F5FF" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">37.6%</text>
+    <!-- track -->
+    <rect x="24" y="59" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="59" width="110" height="8"
+          rx="4" fill="#00F5FF" filter="url(#glow0)" opacity="0.9">
+      <animate attributeName="width" from="0" to="110" dur="0.8s"
+               begin="0.0s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- Java -->
+    <defs>
+      <filter id="glow1" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="87" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Java</text>
+    <text x="316" y="87" fill="#FF00FF" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">27.0%</text>
+    <!-- track -->
+    <rect x="24" y="93" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="93" width="79" height="8"
+          rx="4" fill="#FF00FF" filter="url(#glow1)" opacity="0.9">
+      <animate attributeName="width" from="0" to="79" dur="0.8s"
+               begin="0.12s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- Python -->
+    <defs>
+      <filter id="glow2" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="121" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Python</text>
+    <text x="316" y="121" fill="#39FF14" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">20.4%</text>
+    <!-- track -->
+    <rect x="24" y="127" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="127" width="60" height="8"
+          rx="4" fill="#39FF14" filter="url(#glow2)" opacity="0.9">
+      <animate attributeName="width" from="0" to="60" dur="0.8s"
+               begin="0.24s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- Roff -->
+    <defs>
+      <filter id="glow3" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="155" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Roff</text>
+    <text x="316" y="155" fill="#FF6B35" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">9.7%</text>
+    <!-- track -->
+    <rect x="24" y="161" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="161" width="28" height="8"
+          rx="4" fill="#FF6B35" filter="url(#glow3)" opacity="0.9">
+      <animate attributeName="width" from="0" to="28" dur="0.8s"
+               begin="0.36s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- C -->
+    <defs>
+      <filter id="glow4" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="189" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">C</text>
+    <text x="316" y="189" fill="#BF00FF" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">2.8%</text>
+    <!-- track -->
+    <rect x="24" y="195" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="195" width="8" height="8"
+          rx="4" fill="#BF00FF" filter="url(#glow4)" opacity="0.9">
+      <animate attributeName="width" from="0" to="8" dur="0.8s"
+               begin="0.48s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- JavaScript -->
+    <defs>
+      <filter id="glow5" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="223" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">JavaScript</text>
+    <text x="316" y="223" fill="#FFFF00" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">2.6%</text>
+    <!-- track -->
+    <rect x="24" y="229" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="229" width="8" height="8"
+          rx="4" fill="#FFFF00" filter="url(#glow5)" opacity="0.9">
+      <animate attributeName="width" from="0" to="8" dur="0.8s"
+               begin="0.6s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+</svg>
