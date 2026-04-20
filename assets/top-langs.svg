@@ -1,239 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="268"
+     viewBox="0 0 340 268" role="img" aria-label="Top Languages">
 
-      <svg
-        width="300"
-        height="165"
-        viewBox="0 0 300 165"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-labelledby="descId"
-      >
-        <title id="titleId"></title>
-        <desc id="descId"></desc>
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #70a5fd;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          @supports(-moz-appearance: auto) {
-            /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
-          }
-          
-    @keyframes slideInAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: calc(100%-100px);
-      }
-    }
-    @keyframes growWidthAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-    }
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #38bdae;
-    }
-    @supports(-moz-appearance: auto) {
-      /* Selector detects Firefox */
-      .stat { font-size:12px; }
-    }
-    .bold { font-weight: 700 }
-    .lang-name {
-      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #38bdae;
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    #rect-mask rect{
-      animation: slideInAnimation 1s ease-in-out forwards;
-    }
-    .lang-progress{
-      animation: growWidthAnimation 0.6s ease-in-out forwards;
-    }
-    
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0D0D1A"/>
+      <stop offset="100%" stop-color="#12121F"/>
+    </linearGradient>
+    <filter id="titleGlow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-          
-      /* Animations */
-      @keyframes scaleInAnimation {
-        from {
-          transform: translate(-5px, 5px) scale(0);
-        }
-        to {
-          transform: translate(-5px, 5px) scale(1);
-        }
-      }
-      @keyframes fadeInAnimation {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    
-          
-        </style>
+  <!-- fondo -->
+  <rect width="340" height="268" rx="12" fill="url(#bgGrad)" stroke="#2A2A3E" stroke-width="1.5"/>
 
-        
+  <!-- título -->
+  <text x="24" y="28" fill="#00F5FF" font-family="'Courier New', monospace"
+        font-size="14" font-weight="700" filter="url(#titleGlow)">◈ Top Languages</text>
+  <line x1="24" y1="34" x2="316" y2="34" stroke="#2A2A3E" stroke-width="1"/>
 
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#e4e2e2"
-          width="299"
-          fill="#1a1b27"
-          stroke-opacity="1"
-        />
-
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >Most Used Languages</text>
-    </g>
-      </g>
-    
-
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    <svg data-testid="lang-items" x="25">
-      
   
-      <mask id="rect-mask">
-          <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
-        </mask>
-        
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="0"
-          y="0"
-          width="128.41"
-          height="8"
-          fill="#e34c26"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="128.41"
-          y="0"
-          width="54.01"
-          height="8"
-          fill="#3D6117"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="182.42"
-          y="0"
-          width="26.84"
-          height="8"
-          fill="#DA5B0B"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="209.26"
-          y="0"
-          width="19.28"
-          height="8"
-          fill="#b07219"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="228.54"
-          y="0"
-          width="14.55"
-          height="8"
-          fill="#3572A5"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="243.09"
-          y="0"
-          width="16.91"
-          height="8"
-          fill="#ecdebe"
-        />
-      
-      
-    <g transform="translate(0, 25)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#e34c26" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 51.36%
-      </text>
-    </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#3D6117" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TeX 21.61%
-      </text>
-    </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 10.74%
-      </text>
-    </g>
-  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#b07219" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Java 7.71%
-      </text>
-    </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 5.82%
-      </text>
-    </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#ecdebe" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Roff 2.76%
-      </text>
-    </g>
-  </g></g>
-    </g>
-  
-    </svg>
-  
-        </g>
-      </svg>
-    
+    <!-- Jupyter Notebook -->
+    <defs>
+      <filter id="glow0" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="53" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Jupyter Notebook</text>
+    <text x="316" y="53" fill="#00F5FF" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">37.6%</text>
+    <!-- track -->
+    <rect x="24" y="59" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="59" width="110" height="8"
+          rx="4" fill="#00F5FF" filter="url(#glow0)" opacity="0.9">
+      <animate attributeName="width" from="0" to="110" dur="0.8s"
+               begin="0.0s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- Java -->
+    <defs>
+      <filter id="glow1" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="87" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Java</text>
+    <text x="316" y="87" fill="#FF00FF" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">27.0%</text>
+    <!-- track -->
+    <rect x="24" y="93" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="93" width="79" height="8"
+          rx="4" fill="#FF00FF" filter="url(#glow1)" opacity="0.9">
+      <animate attributeName="width" from="0" to="79" dur="0.8s"
+               begin="0.12s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- Python -->
+    <defs>
+      <filter id="glow2" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="121" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Python</text>
+    <text x="316" y="121" fill="#39FF14" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">20.4%</text>
+    <!-- track -->
+    <rect x="24" y="127" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="127" width="60" height="8"
+          rx="4" fill="#39FF14" filter="url(#glow2)" opacity="0.9">
+      <animate attributeName="width" from="0" to="60" dur="0.8s"
+               begin="0.24s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- Roff -->
+    <defs>
+      <filter id="glow3" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="155" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">Roff</text>
+    <text x="316" y="155" fill="#FF6B35" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">9.7%</text>
+    <!-- track -->
+    <rect x="24" y="161" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="161" width="28" height="8"
+          rx="4" fill="#FF6B35" filter="url(#glow3)" opacity="0.9">
+      <animate attributeName="width" from="0" to="28" dur="0.8s"
+               begin="0.36s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- C -->
+    <defs>
+      <filter id="glow4" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="189" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">C</text>
+    <text x="316" y="189" fill="#BF00FF" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">2.8%</text>
+    <!-- track -->
+    <rect x="24" y="195" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="195" width="8" height="8"
+          rx="4" fill="#BF00FF" filter="url(#glow4)" opacity="0.9">
+      <animate attributeName="width" from="0" to="8" dur="0.8s"
+               begin="0.48s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+    <!-- JavaScript -->
+    <defs>
+      <filter id="glow5" x="-20%" y="-80%" width="140%" height="260%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <text x="24" y="223" fill="#E0E0E0" font-family="'Courier New', monospace"
+          font-size="12" font-weight="600">JavaScript</text>
+    <text x="316" y="223" fill="#FFFF00" font-family="'Courier New', monospace"
+          font-size="11" text-anchor="end" font-weight="700">2.6%</text>
+    <!-- track -->
+    <rect x="24" y="229" width="292" height="8"
+          rx="4" fill="#1E1E2E"/>
+    <!-- barra activa -->
+    <rect x="24" y="229" width="8" height="8"
+          rx="4" fill="#FFFF00" filter="url(#glow5)" opacity="0.9">
+      <animate attributeName="width" from="0" to="8" dur="0.8s"
+               begin="0.6s" fill="freeze" calcMode="spline"
+               keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
+    </rect>
+</svg>
