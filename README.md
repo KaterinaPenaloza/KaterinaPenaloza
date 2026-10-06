@@ -7,7 +7,7 @@
 - 💻 Ingeniera Civil Informática
 - 🐍 Principalmente programo en Python - análisis de datos, ia, machine learning, scripts, etc. -
 - ⚙️ Aunque para fullstack prefiero NodeJS + Express + React
-- ​📎​ Me gusta el área de backend, análisis de datos y armar cositas con IA (chatbots, agentes, ese tipo de cosas, lo que se me ocurra). Pero me gustaría dedicarme algún día al machine learning.
+- ​📎​ Enfocada en el área de backend, análisis de datos e IA (chatbots, agentes, ese tipo de cosas, lo que se me ocurra). Pero me gustaría dedicarme al machine learning cuando se dé el momento.
 - 💼 Actualmente me encuentro repasando conceptos y poniendome al día con las tecnologías, y de paso haciendo algunos proyectitos personales para practicar <small>~~mientras busco trabajo~~</small>
 
 ![rainbow_divisor](https://64.media.tumblr.com/4fb0a10e59023aa9708695b32e8e9272/03e16e7907ca0660-89/s640x960/42795355e9fd28ab44e5a11b9468ccadf9ec5e89.gifv)
