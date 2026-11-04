@@ -15,6 +15,7 @@ from collections import defaultdict
 GITHUB_USER   = os.environ.get("GITHUB_USER", "TU_USUARIO")
 MAX_LANGS     = 6
 EXCLUDE_LANGS = {"HTML", "CSS", "Dockerfile", "Shell", "Makefile", "TeX"}  # ignorar estos
+MERGE_LANGS   = {"Jupyter Notebook": "Python"}
 
 # Paleta colores
 NEON_COLORS = [
@@ -54,6 +55,7 @@ def get_language_stats(user, token):
             try:
                 langs = fetch(langs_url, token)
                 for lang, count in langs.items():
+                    lang = MERGE_LANGS.get(lang, lang)
                     if lang not in EXCLUDE_LANGS:
                         lang_bytes[lang] += count
             except Exception:
