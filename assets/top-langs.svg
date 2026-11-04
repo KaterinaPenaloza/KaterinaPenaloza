@@ -21,7 +21,7 @@
   <line x1="24" y1="34" x2="316" y2="34" stroke="#2A2A3E" stroke-width="1"/>
 
   
-    <!-- Jupyter Notebook -->
+    <!-- Python -->
     <defs>
       <filter id="glow0" x="-20%" y="-80%" width="140%" height="260%">
         <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -29,16 +29,16 @@
       </filter>
     </defs>
     <text x="24" y="53" fill="#E0E0E0" font-family="'Courier New', monospace"
-          font-size="12" font-weight="600">Jupyter Notebook</text>
+          font-size="12" font-weight="600">Python</text>
     <text x="316" y="53" fill="#00F5FF" font-family="'Courier New', monospace"
-          font-size="11" text-anchor="end" font-weight="700">54.1%</text>
+          font-size="11" text-anchor="end" font-weight="700">65.4%</text>
     <!-- track -->
     <rect x="24" y="59" width="292" height="8"
           rx="4" fill="#1E1E2E"/>
     <!-- barra activa -->
-    <rect x="24" y="59" width="158" height="8"
+    <rect x="24" y="59" width="191" height="8"
           rx="4" fill="#00F5FF" filter="url(#glow0)" opacity="0.9">
-      <animate attributeName="width" from="0" to="158" dur="0.8s"
+      <animate attributeName="width" from="0" to="191" dur="0.8s"
                begin="0.0s" fill="freeze" calcMode="spline"
                keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
     </rect>
@@ -52,18 +52,18 @@
     <text x="24" y="87" fill="#E0E0E0" font-family="'Courier New', monospace"
           font-size="12" font-weight="600">Java</text>
     <text x="316" y="87" fill="#FF00FF" font-family="'Courier New', monospace"
-          font-size="11" text-anchor="end" font-weight="700">26.9%</text>
+          font-size="11" text-anchor="end" font-weight="700">25.8%</text>
     <!-- track -->
     <rect x="24" y="93" width="292" height="8"
           rx="4" fill="#1E1E2E"/>
     <!-- barra activa -->
-    <rect x="24" y="93" width="79" height="8"
+    <rect x="24" y="93" width="75" height="8"
           rx="4" fill="#FF00FF" filter="url(#glow1)" opacity="0.9">
-      <animate attributeName="width" from="0" to="79" dur="0.8s"
+      <animate attributeName="width" from="0" to="75" dur="0.8s"
                begin="0.12s" fill="freeze" calcMode="spline"
                keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
     </rect>
-    <!-- Python -->
+    <!-- JavaScript -->
     <defs>
       <filter id="glow2" x="-20%" y="-80%" width="140%" height="260%">
         <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -71,20 +71,20 @@
       </filter>
     </defs>
     <text x="24" y="121" fill="#E0E0E0" font-family="'Courier New', monospace"
-          font-size="12" font-weight="600">Python</text>
+          font-size="12" font-weight="600">JavaScript</text>
     <text x="316" y="121" fill="#39FF14" font-family="'Courier New', monospace"
-          font-size="11" text-anchor="end" font-weight="700">10.5%</text>
+          font-size="11" text-anchor="end" font-weight="700">4.7%</text>
     <!-- track -->
     <rect x="24" y="127" width="292" height="8"
           rx="4" fill="#1E1E2E"/>
     <!-- barra activa -->
-    <rect x="24" y="127" width="31" height="8"
+    <rect x="24" y="127" width="14" height="8"
           rx="4" fill="#39FF14" filter="url(#glow2)" opacity="0.9">
-      <animate attributeName="width" from="0" to="31" dur="0.8s"
+      <animate attributeName="width" from="0" to="14" dur="0.8s"
                begin="0.24s" fill="freeze" calcMode="spline"
                keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
     </rect>
-    <!-- JavaScript -->
+    <!-- C -->
     <defs>
       <filter id="glow3" x="-20%" y="-80%" width="140%" height="260%">
         <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -92,20 +92,20 @@
       </filter>
     </defs>
     <text x="24" y="155" fill="#E0E0E0" font-family="'Courier New', monospace"
-          font-size="12" font-weight="600">JavaScript</text>
+          font-size="12" font-weight="600">C</text>
     <text x="316" y="155" fill="#FF6B35" font-family="'Courier New', monospace"
-          font-size="11" text-anchor="end" font-weight="700">4.9%</text>
+          font-size="11" text-anchor="end" font-weight="700">2.5%</text>
     <!-- track -->
     <rect x="24" y="161" width="292" height="8"
           rx="4" fill="#1E1E2E"/>
     <!-- barra activa -->
-    <rect x="24" y="161" width="14" height="8"
+    <rect x="24" y="161" width="7" height="8"
           rx="4" fill="#FF6B35" filter="url(#glow3)" opacity="0.9">
-      <animate attributeName="width" from="0" to="14" dur="0.8s"
+      <animate attributeName="width" from="0" to="7" dur="0.8s"
                begin="0.36s" fill="freeze" calcMode="spline"
                keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
     </rect>
-    <!-- C -->
+    <!-- Lua -->
     <defs>
       <filter id="glow4" x="-20%" y="-80%" width="140%" height="260%">
         <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -113,20 +113,20 @@
       </filter>
     </defs>
     <text x="24" y="189" fill="#E0E0E0" font-family="'Courier New', monospace"
-          font-size="12" font-weight="600">C</text>
+          font-size="12" font-weight="600">Lua</text>
     <text x="316" y="189" fill="#BF00FF" font-family="'Courier New', monospace"
-          font-size="11" text-anchor="end" font-weight="700">2.6%</text>
+          font-size="11" text-anchor="end" font-weight="700">1.0%</text>
     <!-- track -->
     <rect x="24" y="195" width="292" height="8"
           rx="4" fill="#1E1E2E"/>
     <!-- barra activa -->
-    <rect x="24" y="195" width="8" height="8"
+    <rect x="24" y="195" width="4" height="8"
           rx="4" fill="#BF00FF" filter="url(#glow4)" opacity="0.9">
-      <animate attributeName="width" from="0" to="8" dur="0.8s"
+      <animate attributeName="width" from="0" to="4" dur="0.8s"
                begin="0.48s" fill="freeze" calcMode="spline"
                keySplines="0.4 0 0.2 1" keyTimes="0 1"/>
     </rect>
-    <!-- Lua -->
+    <!-- Prolog -->
     <defs>
       <filter id="glow5" x="-20%" y="-80%" width="140%" height="260%">
         <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -134,9 +134,9 @@
       </filter>
     </defs>
     <text x="24" y="223" fill="#E0E0E0" font-family="'Courier New', monospace"
-          font-size="12" font-weight="600">Lua</text>
+          font-size="12" font-weight="600">Prolog</text>
     <text x="316" y="223" fill="#FFFF00" font-family="'Courier New', monospace"
-          font-size="11" text-anchor="end" font-weight="700">1.0%</text>
+          font-size="11" text-anchor="end" font-weight="700">0.6%</text>
     <!-- track -->
     <rect x="24" y="229" width="292" height="8"
           rx="4" fill="#1E1E2E"/>
