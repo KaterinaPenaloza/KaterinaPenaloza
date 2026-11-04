@@ -14,7 +14,7 @@ from collections import defaultdict
 #  CONFIGURACIÓN
 GITHUB_USER   = os.environ.get("GITHUB_USER", "TU_USUARIO")
 MAX_LANGS     = 6
-EXCLUDE_LANGS = {"HTML", "CSS", "Dockerfile", "Shell", "Makefile", "TeX"}  # ignorar estos
+EXCLUDE_LANGS = {"HTML", "CSS", "Dockerfile", "Makefile", "TeX"}  # ignorar estos
 MERGE_LANGS   = {"Jupyter Notebook": "Python"}
 
 # Paleta colores
