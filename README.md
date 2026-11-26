@@ -10,7 +10,12 @@
 - ​📎​ Enfocada en el área de backend, análisis de datos e IA (chatbots, agentes, ese tipo de cosas, lo que se me ocurra). Pero me gustaría dedicarme al machine learning cuando se dé el momento.
 - 💼 Actualmente me encuentro repasando conceptos y poniendome al día con las tecnologías, y de paso haciendo algunos proyectitos personales para practicar <small>~~mientras busco trabajo~~</small>
 
-![rainbow_divisor](https://64.media.tumblr.com/4fb0a10e59023aa9708695b32e8e9272/03e16e7907ca0660-89/s640x960/42795355e9fd28ab44e5a11b9468ccadf9ec5e89.gifv)
+<!-- Contacto -->
+
+![mailme](https://web.archive.org/web/20090804094225im_/http://hk.geocities.com/mlstml/images/mlstml_i_email.gif) Conecta conmigo en LinkedIn
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katerinapenaloza/)
+
 <!-- Tecnologias -->
 ## ![binario](https://64.media.tumblr.com/dde3d841004cac68a1af6d37192105b4/5341a2dc0025ef72-3c/s250x400/10e848d7fafe9e8647dc5f5b324bbdb77e10973f.gifv) SKILLS ![binario](https://64.media.tumblr.com/dde3d841004cac68a1af6d37192105b4/5341a2dc0025ef72-3c/s250x400/10e848d7fafe9e8647dc5f5b324bbdb77e10973f.gifv)
 
@@ -40,14 +45,16 @@
 ### ML e IA
   ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
   ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+  
   ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
   ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
   ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-  ![Google Gemini](https://img.shields.io/badge/google%20gemini-%238E75B2.svg?style=for-the-badge&logo=google%20gemini&logoColor=white)
+
   ![LangChain](https://img.shields.io/badge/langchain-%231C3C3C.svg?style=for-the-badge&logo=langchain&logoColor=white)
+  ![Google Gemini](https://img.shields.io/badge/google%20gemini-%238E75B2.svg?style=for-the-badge&logo=google%20gemini&logoColor=white)
 
 ---
-### Dashboards
+### Visualización de datos
   ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 <!-- Top Languajes -->
@@ -55,20 +62,10 @@
 
 ![Top Languages](./assets/top-langs.svg)
 
-<!-- Contacto -->
-![rainbow_divisor](https://64.media.tumblr.com/4fb0a10e59023aa9708695b32e8e9272/03e16e7907ca0660-89/s640x960/42795355e9fd28ab44e5a11b9468ccadf9ec5e89.gifv)
-
-![mailme](https://web.archive.org/web/20090804094225im_/http://hk.geocities.com/mlstml/images/mlstml_i_email.gif) Conecta conmigo en LinkedIn
-
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/katerinapenaloza/)
-
 <!-- Fin -->
-![rainbow_divisor](https://64.media.tumblr.com/4fb0a10e59023aa9708695b32e8e9272/03e16e7907ca0660-89/s640x960/42795355e9fd28ab44e5a11b9468ccadf9ec5e89.gifv)
-
-Gracias por su visita ^^ 
-
 ![divisor](https://64.media.tumblr.com/0d41b51b6cc3027bbc56fa14899689c0/4160be3cc2b84620-14/s400x600/cd3c27dae81f576b37b9466b9fb46ba7bdd01cf0.gifv)
-[![bye](https://64.media.tumblr.com/27a6dc37f3b0cedb93fb7fd72d2cd101/5a2352ca7e046862-84/s250x400/91764a7937086d270346ba4df5ba04b853feb956.gifv)](https://64.media.tumblr.com/27a6dc37f3b0cedb93fb7fd72d2cd101/5a2352ca7e046862-84/s250x400/91764a7937086d270346ba4df5ba04b853feb956.gifv)
+
+Gracias por pasarte! ^^  [![bye](https://64.media.tumblr.com/27a6dc37f3b0cedb93fb7fd72d2cd101/5a2352ca7e046862-84/s250x400/91764a7937086d270346ba4df5ba04b853feb956.gifv)](https://64.media.tumblr.com/27a6dc37f3b0cedb93fb7fd72d2cd101/5a2352ca7e046862-84/s250x400/91764a7937086d270346ba4df5ba04b853feb956.gifv)
 
     
 [![GIF](https://media.giphy.com/media/11JTxkrmq4bGE0/giphy.gif)](https://giphy.com/gifs/cat-computer-working-11JTxkrmq4bGE0)
